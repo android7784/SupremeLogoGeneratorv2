@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.eot');
+  src: url('https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.eot?#iefix') format('embedded-opentype'),
+  url('https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.woff2') format('woff2'),
+  url('https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.woff') format('woff'),
+  url('https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.ttf') format('truetype'),
+  url('https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.svg#Futura') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+.supreme {
+  font-family: 'Futura';
+}
+
+h1, h4, h5 {
+  color: #fe0000;
+}
+
+h4 {
+  margin-bottom: 1.5rem;
+}
+
+h5 {
+  opacity: 0.8;
+}
+
+h5 a {
+  color: #fe0000;
+  opacity: 0.5;
+  transition: 0.2s ease-in-out;
+}
+
+h5 a:hover {
+  opacity: 1;
+}
+
+.container {
+  text-align: center;
+
+}
+
+.input-field {
+  display: inline-block;
+  margin-right: 20px;
+  width: 300px;
+}
+
+ .input-field label {
+   color: #fe0000;
+ }
+
+ .input-field input[type=text]:focus + label {
+   color: #fe0000;
+ }
+
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #fe0000;
+   box-shadow: 0 1px 0 0 #fe0000;
+ }
+
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid #fe0000;
+   box-shadow: 0 1px 0 0 #fe0000;
+ }
+
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #fe0000;
+   box-shadow: 0 1px 0 0 #fe0000;
+ }
+
+ .input-field .prefix.active {
+   color: #fe0000;
+ }
+
+a {
+  display: inline;
+}
